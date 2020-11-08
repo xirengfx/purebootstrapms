@@ -1,0 +1,195 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans';
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto';
+}
+
+hr {
+  background-color: #e8ffff;
+  opacity: 0.4;
+}
+/* Header */
+#header {
+  text-align: center;
+  padding-top: 3.5rem;
+}
+
+.header-h1 {
+  color: #1aa6b7;
+  font-weight: 800;
+  font-size: 4rem;
+  transition: 0.2s;
+  display: block;
+}
+
+.header-h1:hover {
+  color: #19d3da;
+  transition: 0.2s;
+}
+
+.header-p {
+  display: block;
+  color: #686d76;
+}
+
+.header-btn {
+  padding-top: 1.5rem;
+}
+
+.header-download-btn {
+  position: relative;
+  bottom: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #1aa6b7;
+  border: none;
+}
+
+.header-download-btn:hover {
+  color: white;
+  background-color: #19d3da;
+}
+
+/* Top Container */
+.top-container {
+  background-color: #f6f5f1;
+  position: relative;
+  top: 5rem;
+  padding-bottom: 8rem;
+  border-radius: 0;
+}
+
+/* Latest Updates */
+.updates-container {
+  text-align: left;
+  position: relative;
+  top: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px #cdc9c3;
+}
+
+
+.updates-h3 {
+  font-weight: 800;
+}
+
+.updates-row {
+  transition: 0.2s;
+}
+
+.updates-row:hover {
+  background-color: #eeeeee;
+  transition: 0.2s;
+}
+
+.updates-column {
+  padding: 1rem 1rem 0;
+}
+
+.updates-h5 {
+  color: #1aa6b7;
+  font-size: 1rem;
+}
+
+.updates-p {
+  line-height: 1;
+  color: #686d76;
+  font-size: 0.9rem;
+}
+
+/* Registration */
+.register-container {
+  position: relative;
+  top: 5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px #cdc9c3;
+  padding: 2rem;
+}
+
+.register-label {
+  font-size: 0.9rem;
+}
+
+.register-btn {
+  font-size: 0.9rem;
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  color: white;
+  background-color: #1aa6b7;
+}
+
+.register-btn:hover {
+  color: white;
+  background-color: #19d3da;
+}
+
+/* Middle Container */
+.mid-container {
+  background-color: #1aa6b7;
+  border-radius: 0;
+  margin: 0;
+}
+
+/* About */
+.about-heading {
+  position: relative;
+  top: 3rem;
+}
+.about-h3 {
+  color: white;
+  font-weight: 800;
+}
+
+.about-h5 {
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.about-p {
+  color: #e8ffff;
+  font-size: 0.9rem;
+}
+
+.about-column {
+  position: relative;
+  top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Bottom Container */
+.bot-container {
+  background-color: #f6f5f1;
+  margin: 0;
+}
+
+.feedback-h3 {
+  font-weight: 800;
+}
+
+.feedback-p {
+  color: #686d76;
+}
+
+.feedback-btn {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #1aa6b7;
+}
+
+.feedback-btn:hover {
+  color: white;
+  background-color: #19d3da;
+}
